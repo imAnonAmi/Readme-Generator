@@ -35,7 +35,8 @@ Run index.js and follow prompts
 
 # Known Issues
 1. At present does not work. Data is not being passed from index to api.js, or generateMarkdown.js
-2. Will return to this once I have had the time to practice the lessons; the 9 day long failure to install 'node modules' bug I struggled with functionally meant I was unable to follow along or practice while we were learning this)
+2. No .GIF
+3. Will return to this once I have had the time to practice the lessons; the 9 day long failure to install 'node modules' bug I struggled with functionally meant I was unable to follow along or practice while we were learning this)
 
 ## License
 N/A
