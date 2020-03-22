@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
-const api = require("./utils/api.js");
+const sendName = require("./utils/api.js");
 
 const writeToFile = util.promisify(fs.writeFile);
 
@@ -21,17 +21,14 @@ function getUserName() {
 //
 //];
 
-function writeToFile("README.md", md) {
-}
 
 async function init() {
-  getUserName();
+  
   
   const username = await getUserName();
 
-  api(username);
 
-  const data = await api();
+  const data = await (sendName, username);
 
   generateMarkdown(data);
 
